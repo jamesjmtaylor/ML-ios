@@ -14,6 +14,7 @@
 		8F78D7511F2FC5FA003390FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F78D74F1F2FC5FA003390FB /* LaunchScreen.storyboard */; };
 		8F78D75C1F2FC5FA003390FB /* mlSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F78D75B1F2FC5FA003390FB /* mlSpikeTests.swift */; };
 		8F78D7671F2FC5FA003390FB /* mlSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F78D7661F2FC5FA003390FB /* mlSpikeUITests.swift */; };
+		8FD869101F2FDA7E00C98DDE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8690F1F2FDA7E00C98DDE /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8F78D7621F2FC5FA003390FB /* mlSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F78D7661F2FC5FA003390FB /* mlSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlSpikeUITests.swift; sourceTree = "<group>"; };
 		8F78D7681F2FC5FA003390FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD8690F1F2FDA7E00C98DDE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8F78D7451F2FC5FA003390FB /* mlSpike */ = {
 			isa = PBXGroup;
 			children = (
+				8FD8690F1F2FDA7E00C98DDE /* Inceptionv3.mlmodel */,
 				8F78D7461F2FC5FA003390FB /* AppDelegate.swift */,
 				8F78D7481F2FC5FA003390FB /* ViewController.swift */,
 				8F78D74A1F2FC5FA003390FB /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F78D7491F2FC5FA003390FB /* ViewController.swift in Sources */,
+				8FD869101F2FDA7E00C98DDE /* Inceptionv3.mlmodel in Sources */,
 				8F78D7471F2FC5FA003390FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -516,6 +520,7 @@
 				8F78D76D1F2FC5FA003390FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F78D76E1F2FC5FA003390FB /* Build configuration list for PBXNativeTarget "mlSpikeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				8F78D7701F2FC5FA003390FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F78D7711F2FC5FA003390FB /* Build configuration list for PBXNativeTarget "mlSpikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				8F78D7731F2FC5FA003390FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
