@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8713401F3125BE00DEF0D3 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8F87133F1F3125BD00DEF0D3 /* GoogLeNetPlaces.mlmodel */; };
 		CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A65A01EE7EC0700942922 /* AppDelegate.swift */; };
 		CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A65A21EE7EC0700942922 /* ViewController.swift */; };
 		CD8A65A61EE7EC0700942922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A41EE7EC0700942922 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F87133F1F3125BD00DEF0D3 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		CD8A659D1EE7EC0700942922 /* SceneDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8A65A01EE7EC0700942922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD8A65A21EE7EC0700942922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				CD8A65A41EE7EC0700942922 /* Main.storyboard */,
 				CD8A65A71EE7EC0700942922 /* Assets.xcassets */,
+				8F87133F1F3125BD00DEF0D3 /* GoogLeNetPlaces.mlmodel */,
 				CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */,
 				CD8A65A91EE7EC0700942922 /* LaunchScreen.storyboard */,
 			);
@@ -152,6 +155,7 @@
 			files = (
 				CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */,
 				CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */,
+				8F8713401F3125BE00DEF0D3 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
