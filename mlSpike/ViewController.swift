@@ -63,11 +63,11 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                 return "\(round(prediction.confidence * 100 * 100)/100)%: \(prediction.identifier)"
         }
         DispatchQueue.main.async {
-            print(classifications.joined(separator: "###"))
-            self.classificationText.text = classifications.joined(separator: "\n")
+            print(classifications.joined(separator: "###")) //Prints results to console
+            self.classificationText.text = classifications.joined(separator: "\n") //Prints to iOS device screen
         }
     }
-    
+    //Optional protocol method of AVCaptureVideoDataOutputSampleBufferDelegate
     func captureOutput(_ output: AVCaptureOutput, didOutputSampleBuffer sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
             return
